@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/f325736370.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo1.1.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>   
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Technical / content writer</p>
+                <p>Python Developer</p>
+                <p>Cybersecurity</p>
+                <h1>Hi, I'm <span>Vijay Shete</span><br></h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- about me -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/pic2.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>Hi!
+                        I'm Vijay Shete, a Programmer and a CSE student at Dy Patil College of
+                        Engineering and Technology, Kolhapur. I like to gain knowledge daily in this
+                        digital era and focus on upgrading my knowledge on a daily basis. 
+                        
+                        I have an interest in Cyber Security, Artificial Intelligence (Prompt Engineering (Chatgpt)), Technical writing, Python, Front-end Development, Badminton. As a CSE
+                        student, I like to explore many things happening in the digital world every day.
+                        Additionally, I am a state-level Badminton player.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span><b>Technical writer</b> <br></span>Writer</li>
+                            <li><span><b>Python Developer</b> <br></span>App development</li>
+                            <li><span><b>Cybersecurity Consltant</b><br></span>Provide Consltants to user.</li> <br>
+                            
+                            <li><span><b>Profile:</b></span> Software Developer / Writer.</li>
+                            <li><span><b>Domain:</b></span> Information & Technology.</li> 
+                            <li><span><b>Language:</b></span> English, Marathi, Hindi.</li>
+                            <li><span><b>Soft Skills:</b></span> Problem Solving, Time Management, Critical Thinking, Teamwork, Communication. </li>
+                            <li><span><b>Other Skills</b>:</span> HTML, CSS, PHP, GitHub, Canva.</li>
+                            <li><span><b>Interest:</b></span> Playing Badminton, Traveling, and Exploring.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Internship <br></span>Intern at Anthaathi PVT LTD | IT/ COMPUTER - SOFTWARE  <br>12 Jun, 2023 to 13 Jul, 2023 <br>Python Developer </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2023-24 - Current B-tech Computer Science and Engineering at DY Patil College of Engineering and Technology, Kolhapur. <br></span>  TY 
+                            Percentage: 75.07/100 ( sem 5)
+                            SY CGPA : 7.39</li>
+                            <li><span>2021 - Higher Secondary  New Model Junior College, Kolhapur. <br></span> HSC 
+                            Percentage: 77.70/100</li>
+                            <li><span>2019 - Secondary Education New Model English School, Kolhapur. <br></span> SSC 
+                            Percentage: 66.60/100</li>
+                        </ul>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- services -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-pen"></i>
+                    <h2>Technical / Content writing</h2>
+                    <p>Proficient technical writer with a passion for translating complex information into clear, concise, and accessible documentation. Experienced in creating user guides, technical manuals, and documentation for software and hardware products. Skilled in gathering information from subject matter experts and leveraging AI tools to streamline data analysis and content creation processes. Capable of presenting technical concepts in a structured format that enhances user understanding and usability, while integrating AI-driven insights to optimize content relevance and effectiveness.</p>
+                    
+                </div>
+                <div>
+                    <i class="fa-brands fa-python"></i>
+                    <h2>Python Developer</h2>
+                    <p>I am a Python Developer with expertise in leveraging AI technologies. Experienced in building scalable solutions that integrate machine learning algorithms to solve complex problems effectively. Proficient in developing Python applications that harness AI for automation and enhanced user experiences.</p>
+                    
+                </div>
+                <div>
+                    <i class="fa-solid fa-lock"></i></i>
+                    <h2>Cybersecurity Consltant</h2>
+                    <p>I specialize in cybersecurity consulting, dedicated to fortifying digital environments against threats. Proficient in implementing robust security measures and strategies to safeguard sensitive data and infrastructure. Skilled in conducting risk assessments, implementing security protocols, and providing solutions that ensure optimal protection against cyber threats</p>
+                    
+                </div>
+            </div>
+        </div>
+
+    </div>
+    
+    <!-- portfolio -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/workk1.png">
+                    <div class="layer">
+                        <h3>Technical writing</h3>
+                        <p>As a proficient technical writer, I authored a beginner-friendly Firebase guide using AI tools to enhance clarity. The article covers Firebase's core features with AI-generated instructions for setup, integration, and services like authentication and real-time database. It provides clear explanations, practical examples.</p>
+
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/workk2.png">
+                    <div class="layer">
+                        <h3>Python Developer</h3>
+                        <p>Developed a secure random password generator using Python, incorporating AI tools to enhance functionality and user experience. This project generates complex, random passwords to ensure strong security, with features such as customizable password length and character options. It is designed to be user-friendly and highly efficient.</p>
+                        
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/workk3.jpeg">
+                    <div class="layer">
+                        <h3>Cybersecurity Consltant</h3>
+                        <p>I specialize in safeguarding digital assets against threats through proactive strategies and robust defenses. My expertise includes conducting vulnerability assessments, implementing encryption protocols, and devising incident response plans to mitigate risks effectively. I am dedicated to enhancing cybersecurity posture by staying ahead of emerging threats.</p>
+                       
+                    </div>
+                </div>
+            </div>
+           
+           
+            <!-- See more button -->
+            <a href="#contact" class="btn" id="seeMoreBtn">See more</a>
+             <!-- Message -->
+            <p style="text-align: center; margin-top: 20px; font-size: 30px">To <span>See more details and Projects information</span> please Download my CV and for <span>Certifications</span> please visit my <span>Linkedin Profile</span> <br> Thank you.</p>
+            <!-- Download CV button -->
+            <a href="images/Vijay_Shete_Resume.pdf" download="vijay_shete_resume.pdf" class="btn" id="downloadCVBtn">Download CV</a>
+        </div>
+    </div>
+
+    <!-- contact -->
+    <div id="contact" class="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact me</h1>
+                    <p> <i class="fa-sharp fa-solid fa-paper-plane"></i> shetevijay829@gmail.com</p>
+                    <p> <i class="fa-solid fa-phone"></i> +91 9623896869</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/vijay-shete-81853a245/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/HTTPSVIJAY"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.instagram.com/_vijay_7747/?hl=en"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg">Hello</span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright 2024 Vijay. All rights reserved.</p>
+        </div>
+    </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents= document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname)
+        {
+            for(tablink of tablinks)
+            {
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents)
+            {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu()
+        {
+            sidemenu.style.right = "0";
+        }
+        function closemenu()
+        {
+            sidemenu.style.right = "-200px";
+        }
+
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwbNbBFhnFy0gdbJRunbouO-BTga_EGYIg7reV1ZDF89OW8aEQmDjQwXnZ5Xis8WWzzXA/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message has sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        });
+
+        document.getElementById("seeMoreBtn").addEventListener("click", function() {
+            var downloadCVBtn = document.getElementById("downloadCVBtn");
+            downloadCVBtn.scrollIntoView({ behavior: "smooth" });
+        });
+    </script>
+</body>
+</html>
